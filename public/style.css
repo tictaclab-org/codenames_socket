@@ -1,0 +1,78 @@
+body {
+  font-family: 'Righteous', cursive;
+}
+#container {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 12vh 12vh 12vh 12vh 12vh;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.card {
+  background-color: #f7f3e9;
+}
+
+.red-text {
+  color: #a71d31;
+}
+.blue-text {
+  color: #19647e;
+}
+
+.bomb-text {
+  background-color: #2f3436;
+  color: #d8e2dc;
+}
+
+.clicked-red {
+  background-color: #a71d31;
+  color: #d8e2dc;
+}
+
+.clicked-blue {
+  background-color: #19647e;
+  color: #d8e2dc;
+}
+.clicked-neutral {
+  background-color: #887a56;
+}
+.clicked-bomb {
+  background-color: black;
+  color: #d8e2dc;
+}
+
+.btn-ghost {
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+}
+
+
+#view {
+  margin: 1em;
+}
+
+#game-state {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hide {
+  display: none;
+}
